@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "dependencies": {
     "snowpack": "^3.8.8",
