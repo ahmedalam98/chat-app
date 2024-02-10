@@ -19,6 +19,10 @@ app.get("/chat.svg", (req, res) => {
   res.sendFile(join(__dirname, "../Client/chat.svg"));
 });
 
+app.get("/favicon.ico", (req, res) => {
+  res.sendFile(join(__dirname, "../Client/favicon.ico"));
+});
+
 io.on("connection", (socket) => {
   // console.log("User connected with id : " + socket.id);
 
